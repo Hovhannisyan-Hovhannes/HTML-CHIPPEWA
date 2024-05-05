@@ -5,9 +5,51 @@ padding: 0;
 outline: none;
 }
 
+body{
+    background-color: rgb(176, 172, 166);
+}
+
 .container{
-    max-width: 1700px;
+    max-width: 1300px;
     width: 100%;
     margin:0 auto;
     padding: 0 15px;
+}
+
+.box{
+    margin: 15px;
+}
+
+.header-block{
+    margin: 80px;
+    padding: 80px;
+    gap: 30px;
+
+}
+.images img{
+    width: 400px;
+    height: 400px;
+}
+
+h2{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;   
+}
+
+h3{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4{
+    font-size:30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
