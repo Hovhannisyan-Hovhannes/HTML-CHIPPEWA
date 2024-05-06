@@ -1,44 +1,7 @@
 
-@media (max-width: 1200px) {
-    .serviced-box{
-        width: calc(33.3333% - 13.333px);
-    }
-}
-@media (max-width: 991px) {
-    .serviced-box{
-        width: calc(50% - 10px);
-    }
-}
-@media (max-width: 767px) {
-    .header-menu{
-        position: fixed;
-        height: 100vh;
-        top:0;
-        right: -180px;
-        background-color: chocolate;
-        width: 180px;
-        padding-top: 20px;
-        transition: 0.3s;
-        z-index: 999;
-    }
-    .header-menu.active{
-        right: 0;
-    }
-    .header-menu ul{
-        flex-direction: column;
-    }
-    .burger{
-        display: flex;
+@media (max-width: 1100px) {
+    .header-block{
+        width: calc(37.5% - 15px);
     }
 }
 
-
-@media (max-width: 576px) {
-    .serviced-box, .contact-us-box{
-        width: 100%;
-    }
-
-    .serviced-box p{
-        font-size: 16px;
-    }
-}
