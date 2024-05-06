@@ -47,9 +47,46 @@ p{
 h3{
     font-size: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
 h4{
     font-size:30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer{
+    background-color: aqua;
+    
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    text-align:center;
+    margin: 15px;
+    padding: 10px;
+    background-color: aqua;
+}
+
+textarea{
+    width:500px;
+    height: 50px;
+    text-align:start;
+    margin: 15px;
+    padding: 10px;
+    background-color: aqua;
+}
+
+button{
+    background-color: aqua;
+    padding: 20px;
+}
+
+.icons{
+    gap: 20px;
+}
+
+.name{
+    margin: 50px;
 }
